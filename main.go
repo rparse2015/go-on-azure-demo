@@ -12,7 +12,7 @@ func main() {
 
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(http.StatusOK, gin.H{
-			"Chakie": "is cute",
+			"Chakie": "is very cute",
 		})
 	})
 
