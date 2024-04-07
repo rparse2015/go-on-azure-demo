@@ -20,7 +20,7 @@ func main() {
 	// This can be random, so needs to be loaded at startup
 	port := os.Getenv("HTTP_PLATFORM_PORT")
 
-	// default back to 8080 for local dev
+	// default back to 8080 for local dev kk
 	if port == "" {
 		port = "8080"
 	}
